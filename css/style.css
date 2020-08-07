@@ -252,6 +252,7 @@ main{
     color: white;
     text-align: center;
     font-size: 20px;
+    padding: 5px;
     justify-content: space-evenly;
 }
 
@@ -312,8 +313,12 @@ main{
     transition: .3s;
 }
 
+.input button:hover{
+    background-color: rgb(18, 111, 204);
+}
+
 .input button:active{
-    background-color: rgb(33, 111, 189);
+    background-color: rgb(27, 87, 146);
 }
 
 .biodata{
@@ -344,12 +349,26 @@ main{
     text-shadow: 5px 5px 7px rgba(0, 0, 0, .7);
 }
 
+/* footer */
 footer{
+    display: flex;
     padding: 20px;
+    justify-content: space-evenly;
     text-align: center;
     background-color: #272727;
     color: #fff;
 }
+
+footer a,i{
+    font-size: 24px;
+    color: #fff;
+}
+footer a:hover{
+    font-size: 24px;
+    color: rgb(199, 197, 197);
+}
+
+
 
 /* responsive */
 @media screen and (max-width: 1100px){
