@@ -363,8 +363,8 @@ footer a,i{
     font-size: 24px;
     color: #fff;
 }
+
 footer a:hover{
-    font-size: 24px;
     color: rgb(199, 197, 197);
 }
 
@@ -433,7 +433,9 @@ footer a:hover{
     .menu-toggle {
         display: flex;
     }
-
+    footer a{
+        font-size: 18px;
+    }
     header > nav > ul{
         position: absolute;
         right: 0;
